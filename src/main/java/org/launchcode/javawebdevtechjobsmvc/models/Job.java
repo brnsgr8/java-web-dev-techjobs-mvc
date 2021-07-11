@@ -20,10 +20,10 @@ public class Job {
     }
 
     // Initialize the id and value fields.
-    public Job(String aName, Employer anEmployer, Location aLocation, PositionType aPositionType, CoreCompetency aCoreCompetency) {
+    public Job(String aName, Employer aEmployer, Location aLocation, PositionType aPositionType, CoreCompetency aCoreCompetency) {
         this();
         name = aName;
-        employer = anEmployer;
+        employer = aEmployer;
         location = aLocation;
         positionType = aPositionType;
         coreCompetency = aCoreCompetency;
